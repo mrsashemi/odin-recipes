@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(134, 240, 229);
+}
+
 .title {
     text-align: center;
     font-family: cursive, sans-serif;
@@ -6,32 +10,41 @@
     font-size: 80px;
 }
 
+.ul-list {
+    background-color: rgb(134, 240, 229);
+    text-align: center;
+}
 
+.ul-list li {
+    margin: 10px;
+    display: inline-block;
+}
 
 .container {
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 
 .container img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
 .container .btn {
     position: absolute;
-    top: 80%;
-    left: 10%;
+    top: 78%;
+    left: 20%;
     background-color: rgb(134, 240, 229);
-    color: white;
+    color: black;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-family: cursive, sans-serif;
   }
   
   .container .btn:hover {
-    background-color: black;
+    background-color: white;
   }
 
